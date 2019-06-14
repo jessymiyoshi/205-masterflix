@@ -1,15 +1,42 @@
 body{
     margin:0;
+    height: 1000px;
+    width: 100%;
 }
 
 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.logo img{
+    width: 230px;
 }
 
 ul{
     list-style-type: none;
+    width: 800px;
+    display: flex;  
+    justify-content: space-around;
 }
 
 a{
     text-decoration: none;
+
+}
+
+button{
+    border: none;
+    background-color: #ed1c24;
+}
+
+button img{
+    width: 25px;
+    height: 25px;
+}
+
+section{
+    background-color: #ed1c24;
+    height: 100%;
 }
